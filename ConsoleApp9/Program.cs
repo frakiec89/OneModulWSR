@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using VIN_LIB;
 
 namespace ConsoleApp9
 {
@@ -10,6 +11,15 @@ namespace ConsoleApp9
     {
         static void Main(string[] args)
         {
+             foreach ( var s in  Countru.CountruMas())
+            {
+                if ( s.GetName("Z09" ) != null)
+                Console.WriteLine(s);
+            }
+
+            Console.Read();
+
+
         }
     }
 }
