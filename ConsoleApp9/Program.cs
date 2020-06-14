@@ -12,14 +12,12 @@ namespace ConsoleApp9
         static void Main(string[] args)
         {
              foreach ( var s in  Countru.CountruMas())
-            {
-                if ( s.GetName("Z09" ) != null)
+             {
+                if ( s.GetName("WA9" ) != null)
                 Console.WriteLine(s);
-            }
+             }
 
             Console.Read();
-
-
         }
     }
 }
